@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+.slowshow{
+  opacity: 0;
+  transition: 2s;
+  animation: show 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+.show1{
+  opacity: 0;
+  transition: 2s;
+  animation: show1 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+.show2{
+  opacity: 0;
+  transition: 2s;
+  animation: show2 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+.show3{
+  opacity: 0;
+  transition: 2s;
+  animation: show3 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+.show4{
+  opacity: 0;
+  transition: 2s;
+  animation: show4 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.5s;
+}
+@keyframes show{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes show1{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes show2{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes show3{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes show4{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
